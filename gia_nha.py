@@ -199,7 +199,7 @@ gia_raw = mo_hinh_dung_ngay.du_doan(nha_moi_chuan_hoa)[0][0]
 gia_tien_thuc_te = gia_raw * 100000.0
 
 print(f"\n[KẾT QUẢ ĐỊNH GIÁ TỪ HỆ THỐNG]:")
-print(f" Căn nhà có thông số trên được dự đoán có giá là: {gia_tien_thuc_te:,.0f} USD")
+print(f"Căn nhà có thông số trên được dự đoán có giá là: {gia_tien_thuc_te:,.0f} USD")
 
 
 # Vẽ biểu đồ Sai số
